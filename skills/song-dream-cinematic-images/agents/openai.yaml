@@ -1,0 +1,4 @@
+interface:
+  display_name: "宋韵旧梦电影感"
+  short_description: "将简单主题生成明亮田园或旧梦灯影的宋韵电影图像"
+  default_prompt: "使用 $song-dream-cinematic-images 以冬日庭院围炉煮茶为主题，设计一组自然人物、故事构图、暖金光影与真实胶片质感的宋韵电影静帧。"

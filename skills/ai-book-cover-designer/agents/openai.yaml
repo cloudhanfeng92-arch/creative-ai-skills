@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Book Cover Designer"
+  short_description: "单次生成 3:4 专业书籍封面，参考图优先并自动完成排版"
+  default_prompt: "Use $ai-book-cover-designer to analyze my book brief and generate exactly one complete 3:4 cover image."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影广告分镜导演"
+  short_description: "高端商业广告分镜、场景图与视频提示词制作工作流"
+  default_prompt: "Use $cinematic-ad-storyboard to turn my product brief and images into a cinematic ad storyboard."

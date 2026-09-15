@@ -1,0 +1,4 @@
+interface:
+  display_name: "中国古港市井绘卷视频"
+  short_description: "制作十九世纪中国城市风俗画质感的古港河岸市井绘卷视频"
+  default_prompt: "使用 $ancient-coastal-market-video 将我的主题制作成明亮细腻的中国古代城市风俗绘卷短片。"

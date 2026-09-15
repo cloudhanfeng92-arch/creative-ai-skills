@@ -1,0 +1,4 @@
+interface:
+  display_name: "宋式美学视频一键制作"
+  short_description: "强锁暖金主光与冷柔补光，用即梦Seedance 2.5生成并配乐终剪"
+  default_prompt: "使用 $generate-song-aesthetic-video 以“春日山居煮茶”为主题，采用低角度暖金主光、清透环境补光、明亮脸手、保留织纹的米白衣料和层次清楚的暗部；用 Style Image V8.2 生图并严选结构自然的首帧，再用即梦画布 Seedance 2.5 单首帧模式制作灵动镜头，加入少量自然对白或人声，画面锁定后生成轻快原创配乐并完成最终剪辑混音。"

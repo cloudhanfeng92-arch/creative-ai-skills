@@ -1,0 +1,4 @@
+interface:
+  display_name: "城市照片编辑艺术海报"
+  short_description: "将真实城市或风景照片转为上下分区的高级编辑艺术海报"
+  default_prompt: "Use $city-photo-editorial-poster to transform my photo into a quiet luxury editorial city poster."

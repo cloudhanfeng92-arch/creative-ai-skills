@@ -1,0 +1,4 @@
+interface:
+  display_name: "山海经神兽视频风格"
+  short_description: "以荒古巨兽、云海天宫和真实重量感制作山海经神兽电影短片，支持中文提示词与完整合成"
+  default_prompt: "使用 $generate-shanhai-beast-video，根据我的主题或参考图，设计并制作山海经神兽短片，每镜4至5秒、优先4秒。"

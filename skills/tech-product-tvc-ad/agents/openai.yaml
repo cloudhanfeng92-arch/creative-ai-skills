@@ -1,0 +1,4 @@
+interface:
+  display_name: "科技产品 TVC 广告制作"
+  short_description: "从产品锚点与分镜到音乐、剪辑和科技广告成片的完整制作流程"
+  default_prompt: "Use $tech-product-tvc-ad to create a complete technology-product TVC from my product images and brief."

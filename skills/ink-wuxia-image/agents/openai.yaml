@@ -1,0 +1,4 @@
+interface:
+  display_name: "水墨武侠生图"
+  short_description: "将任意文字创意锁定为水墨武侠数字插画"
+  default_prompt: "Use $ink-wuxia-image to create a water-ink wuxia image of a lone swordsman crossing a snowbound pass."

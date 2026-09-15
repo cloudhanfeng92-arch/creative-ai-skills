@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Music Composer"
+  short_description: "视频镜头分析、音乐导演与原创配乐精准交付服务工作流"
+  default_prompt: "Use $ai-music-composer to create an original soundtrack precisely synced to this video or brief."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "海艺应用创作与参赛"
+  short_description: "发现全网热门图像视频玩法与海艺赛事，封装应用、制作封面并自动发布参赛"
+  default_prompt: "使用 $seaart-app-publisher 检索近期热门 AI 玩法和海艺赛事，选择一个可实现的选题，创建、测试并发布应用，按适用规则完成参赛。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "东方仙侠巨景视频"
+  short_description: "生成巨构压迫感、人物渺小感与电影级东方仙侠仙境短片"
+  default_prompt: "Use $eastern-xianxia-megastructure-video to create a cinematic Eastern xianxia megastructure video with monumental scenery and a tiny solitary figure."

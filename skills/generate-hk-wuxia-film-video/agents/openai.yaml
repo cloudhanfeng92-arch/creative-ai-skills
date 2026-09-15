@@ -1,0 +1,4 @@
+interface:
+  display_name: "港式胶片武侠视频"
+  short_description: "中文八段长篇提示词制作90年代港片武侠，细腻胶片与唯美光影，每镜4至5秒，完整保留源片"
+  default_prompt: "使用 $generate-hk-wuxia-film-video 制作约20秒的女侠江湖短片：原版中文八段长篇生图提示词，90年代港片35mm细腻胶片、柔和光晕、高光不过曝，16:9，每镜4至5秒、优先4秒，整段保留源视频后合成。"

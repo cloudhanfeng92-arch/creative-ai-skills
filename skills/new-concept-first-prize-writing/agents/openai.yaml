@@ -1,0 +1,4 @@
+interface:
+  display_name: "新概念作文一等奖写作"
+  short_description: "严格按用户指定人物、关系、事件与参考文风写出冷静锋利的中文叙事"
+  default_prompt: "使用 $new-concept-first-prize-writing，严格根据我指定的人物关系、事件和参考文风写作。"

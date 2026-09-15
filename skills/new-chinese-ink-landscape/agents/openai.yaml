@@ -1,0 +1,4 @@
+interface:
+  display_name: "新中式水墨山水"
+  short_description: "Create serene new Chinese ink landscape posters from text"
+  default_prompt: "Use $new-chinese-ink-landscape to create a new Chinese ink landscape poster about a spring mountain tea gathering."

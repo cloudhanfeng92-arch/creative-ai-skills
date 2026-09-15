@@ -1,0 +1,4 @@
+interface:
+  display_name: "故事版分镜拆分图"
+  short_description: "把故事与角色参考图生成干净的16:9八格预演分镜表"
+  default_prompt: "使用 $storyboard-sheet-generator 根据我的角色参考图和故事生成一张16:9八格预演分镜拆分图。"

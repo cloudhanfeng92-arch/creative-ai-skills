@@ -1,0 +1,4 @@
+interface:
+  display_name: "港式胶片武侠生图"
+  short_description: "将内容编译成90年代港式胶片武侠提示词并用LibTV生成多组图片"
+  default_prompt: "使用 $generate-hk-wuxia-film-images 把“雨夜古寺，两位旧友隔着石阶对望”制作成一组16:9港式胶片武侠图片。"

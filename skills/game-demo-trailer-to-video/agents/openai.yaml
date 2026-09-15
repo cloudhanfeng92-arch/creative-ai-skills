@@ -1,0 +1,4 @@
+interface:
+  display_name: "游戏演示宣传片生成"
+  short_description: "从游戏设定到完整演示宣传片的可控分镜与生成制作工作流"
+  default_prompt: "使用 $game-demo-trailer-to-video，为《游戏名》制作一段游戏演示宣传片。"

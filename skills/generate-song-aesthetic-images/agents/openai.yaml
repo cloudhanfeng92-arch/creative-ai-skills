@@ -1,0 +1,4 @@
+interface:
+  display_name: "宋式美学生图"
+  short_description: "将简单主题扩写为宋式中式美学提示词并在哩布TV生成组图"
+  default_prompt: "使用 $generate-song-aesthetic-images 以“雨后庭院煮茶”为主题生成一组16:9宋式美学图片。"

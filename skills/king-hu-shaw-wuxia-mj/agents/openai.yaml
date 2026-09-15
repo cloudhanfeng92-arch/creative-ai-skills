@@ -1,0 +1,4 @@
+interface:
+  display_name: "胡金铨邵氏武侠 MJ"
+  short_description: "用胡金铨与邵氏武侠电影美学直接生成悠船V7图像提示词"
+  default_prompt: "Use $king-hu-shaw-wuxia-mj to generate a Youchuan V7 wuxia image of a lone swordswoman crossing a bamboo forest at dawn."

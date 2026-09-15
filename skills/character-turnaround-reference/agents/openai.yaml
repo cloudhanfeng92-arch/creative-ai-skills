@@ -1,0 +1,4 @@
+interface:
+  display_name: "Character Turnaround Reference"
+  short_description: "Create locked-style four-view character reference sheets"
+  default_prompt: "Use $character-turnaround-reference to turn my uploaded character image into a four-view turnaround reference sheet."

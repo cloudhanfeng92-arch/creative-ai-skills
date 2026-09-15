@@ -1,0 +1,4 @@
+interface:
+  display_name: "电影感青春动画 MJ"
+  short_description: "用蓝金黄昏青春动画电影美学为悠船V7生成高质量提示词"
+  default_prompt: "Use $cinematic-youth-anime-mj to create a blue-and-gold twilight youth anime prompt for a student waiting at a rain-wet station."

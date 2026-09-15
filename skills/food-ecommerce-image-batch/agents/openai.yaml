@@ -1,0 +1,4 @@
+interface:
+  display_name: "食品电商批量生图"
+  short_description: "联网分析食品品类，自动重构缺资料槽位并生成整套电商图"
+  default_prompt: "使用 $food-ecommerce-image-batch 分析这些食品产品图，联网研究当前品类与平台视觉，并按默认 3 套生成完整主图和详情模块；缺少原料、工艺、角度或规格时自动做证据安全的内容替换，不输出待补资料页。"

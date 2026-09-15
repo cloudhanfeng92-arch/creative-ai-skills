@@ -1,0 +1,4 @@
+interface:
+  display_name: "故事讲解视频生成"
+  short_description: "自动导演故事、角色场景、灵动表演、配音同步与完整成片"
+  default_prompt: "使用 $story-explainer-video 把我的故事制作成约 60 秒电影化讲解视频，先自动解析剧情、解说、对白、资产和分镜，展示首批完整生成提示词后等待我的积分确认。"

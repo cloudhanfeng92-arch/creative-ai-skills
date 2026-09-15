@@ -1,0 +1,4 @@
+interface:
+  display_name: "复古梦境超现实 MJ"
+  short_description: "用固定复古梦境画风生成 MJ V7 提示词并确认出图"
+  default_prompt: "Use $vintage-dream-surreal-mj to create a vintage dream-surreal MJ V7 image prompt for a glowing desk in a foggy forest."

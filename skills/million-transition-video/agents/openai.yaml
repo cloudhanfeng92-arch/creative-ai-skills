@@ -1,0 +1,4 @@
+interface:
+  display_name: "百万转场视频"
+  short_description: "用三态关键图制作十五秒一镜到底高速穿梭品牌转场广告"
+  default_prompt: "使用 $million-transition-video 根据我的产品图片制作起点物、结构态到成品落地的一镜到底高速穿梭广告。"

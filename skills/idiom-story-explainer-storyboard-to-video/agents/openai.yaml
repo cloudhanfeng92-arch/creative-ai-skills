@@ -1,0 +1,4 @@
+interface:
+  display_name: "成语故事讲解视频"
+  short_description: "将成语典故制作成分镜、图生视频与科普短片的完整工作流"
+  default_prompt: "使用 $idiom-story-explainer-storyboard-to-video，将一个成语典故制作成讲解短片。"

@@ -1,0 +1,396 @@
+[
+  {
+    "name": "ai-book-cover-designer",
+    "title": "AI 专业书籍封面",
+    "category": "图像设计",
+    "description": "根据书名、简介与参考图，生成带完整标题排版的专业封面。",
+    "example": "为小说《山海来信》设计一张3:4封面，主题是海边小城的离别与重逢。",
+    "dependencies": [
+      "LibTV / libtv CLI"
+    ]
+  },
+  {
+    "name": "ai-music-composer",
+    "title": "AI 原创配乐",
+    "category": "音乐配乐",
+    "description": "根据文字简报或视频设计原创配乐，匹配情绪、结构与实际时长。",
+    "example": "为一段30秒春日山居视频制作轻快、自然的原创纯音乐。",
+    "dependencies": [
+      "FFmpeg"
+    ]
+  },
+  {
+    "name": "ancient-coastal-market-video",
+    "title": "中国古港市井绘卷",
+    "category": "视频制作",
+    "description": "制作中国古代沿海、河岸与市井生活的城市风俗绘卷短片。",
+    "example": "制作一段古港早市短片，表现商船、茶摊和往来行人。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "character-plot-storyboard",
+    "title": "九格铅笔故事板",
+    "category": "分镜与角色",
+    "description": "根据角色参考图和简短剧情生成一张黑白九格连续故事板。",
+    "example": "根据我上传的角色图，画九格故事板：女孩在雨夜拾到一封旧信。",
+    "dependencies": []
+  },
+  {
+    "name": "character-turnaround-reference",
+    "title": "角色四视图设定",
+    "category": "分镜与角色",
+    "description": "从一张角色图生成正面、侧面、背面全身及面部特写参考。",
+    "example": "把上传的角色图制作成四视图设定表，保持服装和画风一致。",
+    "dependencies": []
+  },
+  {
+    "name": "cinematic-ad-storyboard",
+    "title": "电影广告分镜导演",
+    "category": "广告与电商",
+    "description": "把产品资料转化为商业广告分镜、场景图与视频提示词。",
+    "example": "根据上传的香水照片，为“雨后森林”主题制作30秒广告分镜。",
+    "dependencies": []
+  },
+  {
+    "name": "cinematic-youth-anime-mj",
+    "title": "电影感青春动画",
+    "category": "图像设计",
+    "description": "编写蓝金黄昏、雨夜青春动画电影风格提示词，并在确认后生图。",
+    "example": "设计一张雨后车站等待列车的学生画面，蓝金黄昏色调。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "city-photo-editorial-poster",
+    "title": "城市照片编辑艺术海报",
+    "category": "图像设计",
+    "description": "把城市或风景照片转成摄影与抽象画面上下分区的文字海报。",
+    "example": "把上传的海边城市照片做成竖版编辑艺术海报，加入英文标题。",
+    "dependencies": [
+      "LibTV / libtv CLI"
+    ]
+  },
+  {
+    "name": "comfyui-workflow-builder",
+    "title": "ComfyUI 工作流制作",
+    "category": "工作流工具",
+    "description": "按生成任务设计、适配和验证可迁移的 ComfyUI 工作流 JSON。",
+    "example": "制作一个支持参考图、局部重绘和放大的ComfyUI工作流，注明节点依赖。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "SeaArt / 海艺",
+      "Python"
+    ]
+  },
+  {
+    "name": "eastern-mythic-video",
+    "title": "东方神话幻想视频",
+    "category": "视频制作",
+    "description": "从概念或参考图制作具有连贯关键帧、运动与配乐的东方神话短片。",
+    "example": "制作云海中神鹿踏过古桥的东方神话幻想短片。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "eastern-xianxia-megastructure-video",
+    "title": "东方仙侠巨景视频",
+    "category": "视频制作",
+    "description": "突出宏大建筑、山河与渺小人物尺度对比，制作仙侠奇观短片。",
+    "example": "制作孤身旅人走向云端巨型山门的仙侠短片。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "food-ecommerce-image-batch",
+    "title": "食品电商批量生图",
+    "category": "广告与电商",
+    "description": "依据同一食品SKU参考图生成包装白底图、主图及详情页模块。",
+    "example": "根据上传的饼干包装和产品图制作1套电商图，只使用已提供的产品事实。",
+    "dependencies": []
+  },
+  {
+    "name": "fpv-director-video",
+    "title": "FPV 导演运镜",
+    "category": "视频制作",
+    "description": "根据参考图设计有空间锚点和时间轴的一镜到底路线，确认后生成视频。",
+    "example": "从上传的庭院图片设计15秒FPV穿梭路线，先展示完整提示词。",
+    "dependencies": []
+  },
+  {
+    "name": "game-demo-trailer-to-video",
+    "title": "游戏演示宣传片",
+    "category": "广告与电商",
+    "description": "从游戏设定、角色与美术风格规划分镜并制作游戏演示宣传片。",
+    "example": "为虚构种田游戏《云上小镇》制作30秒演示宣传片，突出建造和探索。",
+    "dependencies": []
+  },
+  {
+    "name": "generate-hk-wuxia-film-images",
+    "title": "港式胶片武侠生图",
+    "category": "图像设计",
+    "description": "用中文长篇提示词制作90年代港式胶片武侠电影感组图。",
+    "example": "以“雨夜古寺，两位旧友隔阶对望”为主题生成一组16:9武侠图片。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "generate-hk-wuxia-film-video",
+    "title": "港式胶片武侠视频",
+    "category": "视频制作",
+    "description": "从文字或参考图制作16:9港片武侠短片，保持人物、光影与胶片质感。",
+    "example": "制作约20秒女侠江湖短片，场景为雨夜古寺与竹林。",
+    "dependencies": [
+      "LibTV / libtv CLI"
+    ]
+  },
+  {
+    "name": "generate-shanhai-beast-video",
+    "title": "山海经神兽视频",
+    "category": "视频制作",
+    "description": "制作荒古巨兽或云海天宫神兽短片，强调尺度、材质与运动重量。",
+    "example": "制作一段巨兽从云海显现的山海经短片，先给中文分镜和提示词。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "即梦 / Dreamina",
+      "悠船 / Midjourney",
+      "FFmpeg"
+    ]
+  },
+  {
+    "name": "generate-song-aesthetic-images",
+    "title": "宋式美学生图",
+    "category": "图像设计",
+    "description": "把简单主题扩写成写实宋式生活美学组图，涵盖人物与庭院街巷。",
+    "example": "以“雨后庭院煮茶”为主题生成一组16:9宋式美学图片。",
+    "dependencies": [
+      "LibTV / libtv CLI"
+    ]
+  },
+  {
+    "name": "generate-song-aesthetic-video",
+    "title": "宋式美学视频",
+    "category": "视频制作",
+    "description": "制作宋韵生活短片，贯通关键帧、图生视频、配乐与剪辑混音。",
+    "example": "以“春日山居煮茶”为主题制作宋式美学短片，人物动作自然。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "即梦 / Dreamina",
+      "FFmpeg"
+    ]
+  },
+  {
+    "name": "idiom-story-explainer-storyboard-to-video",
+    "title": "成语故事讲解视频",
+    "category": "视频制作",
+    "description": "把成语、寓言或历史小故事制作成分镜、视频、旁白与字幕方案。",
+    "example": "把“刻舟求剑”制作成30秒科普短片，先展示故事结构与分镜。",
+    "dependencies": []
+  },
+  {
+    "name": "image-to-video-prompt-and-generate",
+    "title": "图片转视频",
+    "category": "视频制作",
+    "description": "分析图片内容与构图，编写匹配的运动提示词，确认后生成视频。",
+    "example": "分析上传的图片，写出自然的动作和运镜提示词，确认后生成视频。",
+    "dependencies": []
+  },
+  {
+    "name": "ink-wuxia-image",
+    "title": "水墨武侠生图",
+    "category": "图像设计",
+    "description": "把文字创意转成成熟中国水墨武侠数字插画。",
+    "example": "画一位独行剑客穿过风雪山口，保持水墨武侠质感。",
+    "dependencies": []
+  },
+  {
+    "name": "king-hu-shaw-wuxia-mj",
+    "title": "胡金铨邵氏武侠",
+    "category": "图像设计",
+    "description": "以经典武侠电影美学编写提示词并调用悠船Midjourney生成图像。",
+    "example": "生成晨雾竹林中的女侠，采用经典武侠电影的构图与光影。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "million-transition-video",
+    "title": "百万转场广告",
+    "category": "广告与电商",
+    "description": "通过三态关键图制作15秒高速穿梭、一镜到底的品牌广告。",
+    "example": "根据上传的运动鞋图片制作15秒从材料结构穿梭到成品的广告。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "即梦 / Dreamina"
+    ]
+  },
+  {
+    "name": "naive-crayon-illustration-mj",
+    "title": "童趣蜡笔插画",
+    "category": "图像设计",
+    "description": "制作稚拙蜡笔与粗纸绘本质感的温暖插画。",
+    "example": "生成一只撑着小伞的狐狸，童趣蜡笔与粗纸绘本质感。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "new-chinese-ink-landscape",
+    "title": "新中式水墨山水",
+    "category": "图像设计",
+    "description": "根据主题制作清雅的新中式水墨山水海报和视觉作品。",
+    "example": "以“春山茶会”为主题生成新中式水墨山水海报。",
+    "dependencies": []
+  },
+  {
+    "name": "new-concept-first-prize-writing",
+    "title": "新概念风格叙事写作",
+    "category": "写作与发布",
+    "description": "按指定人物、事件、视角和参考文风创作克制、细节驱动的中文叙事。",
+    "example": "写一篇1500字故事：旧厂门卫最后一次值夜，以第三人称叙述，结尾克制。",
+    "dependencies": []
+  },
+  {
+    "name": "poster-cover-generator",
+    "title": "海报封面生成器",
+    "category": "图像设计",
+    "description": "依据文字、参考图或两者组合，生成带完整排版的海报与封面。",
+    "example": "为“夏夜露天电影节”设计竖版海报，时间为8月20日19:30，地点为河畔广场。",
+    "dependencies": []
+  },
+  {
+    "name": "prompt-reverse-engineer",
+    "title": "逐图提示词反推",
+    "category": "图像设计",
+    "description": "逐张分析参考图的主体、画风、质感与构图，输出中文标题和提示词。",
+    "example": "逐张反推上传图片，每张给一个短标题和一段中文图生图提示词。",
+    "dependencies": []
+  },
+  {
+    "name": "seaart-app-publisher",
+    "title": "海艺应用创作与参赛",
+    "category": "写作与发布",
+    "description": "研究视觉玩法和赛事，将创意封装为可测试、可发布的海艺应用。",
+    "example": "根据“宠物旅行海报”选题准备海艺应用方案和测试提示词，先不发布。",
+    "dependencies": [
+      "SeaArt / 海艺"
+    ]
+  },
+  {
+    "name": "sketchbook-doodle-illustration-mj",
+    "title": "速写本涂鸦插画",
+    "category": "图像设计",
+    "description": "使用温暖手绘质感、粗线条与现代卡通语言生成插画。",
+    "example": "生成一只抱着花束的兔子，温暖的速写本涂鸦风格。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "social-media-publisher-operator",
+    "title": "中文社媒发布运营",
+    "category": "写作与发布",
+    "description": "把成品视频、图集或文章适配为各中文平台的发布素材与运营方案。",
+    "example": "把这段成片整理成小红书和B站标题、简介与标签，先保存为草稿。",
+    "dependencies": []
+  },
+  {
+    "name": "song-dream-cinematic-images",
+    "title": "宋韵旧梦电影感",
+    "category": "图像设计",
+    "description": "制作宋韵人物与生活静帧，结合故事构图、自然材质与暖金或灯影光线。",
+    "example": "以“冬日庭院围炉煮茶”为主题生成一组宋韵电影静帧。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "story-explainer-video",
+    "title": "故事讲解视频",
+    "category": "视频制作",
+    "description": "从故事真值分析到角色场景、剧情表演、配音字幕与完整成片。",
+    "example": "把“陶渊明归园田居”制作成约60秒故事讲解短片，先给脚本和分镜。",
+    "dependencies": [
+      "LibTV / libtv CLI",
+      "FFmpeg",
+      "Python"
+    ]
+  },
+  {
+    "name": "storyboard-sheet-generator",
+    "title": "八格预演分镜表",
+    "category": "分镜与角色",
+    "description": "根据故事和角色参考图制作16:9八格分镜表，含镜头与动作标注。",
+    "example": "根据上传角色图，为“少女穿过集市追赶风筝”生成八格预演分镜。",
+    "dependencies": []
+  },
+  {
+    "name": "tech-product-tvc-ad",
+    "title": "科技产品 TVC",
+    "category": "广告与电商",
+    "description": "从产品视觉锚点与分镜延伸到镜头、配乐、剪辑和广告成片。",
+    "example": "根据上传的耳机照片制作20秒科技产品广告，只使用我提供的卖点。",
+    "dependencies": []
+  },
+  {
+    "name": "ue5-mecha-transformation-video",
+    "title": "UE5 机甲变身",
+    "category": "视频制作",
+    "description": "从角色参考图制作固定15秒、具有写实3D CGI质感的机甲变身视频。",
+    "example": "把上传的角色变成专属巨型机甲，制作15秒变身对峙视频。",
+    "dependencies": [
+      "LibTV / libtv CLI"
+    ]
+  },
+  {
+    "name": "vintage-dream-surreal-mj",
+    "title": "复古梦境超现实生图",
+    "category": "图像设计",
+    "description": "编写复古梦境、日常物件与宁静不可能空间的提示词，确认后生图。",
+    "example": "设计一张雾林中发光书桌的复古梦境超现实画面。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "vintage-dream-surreal-video",
+    "title": "复古梦境超现实视频",
+    "category": "视频制作",
+    "description": "将日常物件与复古空间转为连贯的超现实短片，配合缓慢运动与音乐。",
+    "example": "制作一个老式房间漂浮在海面上的复古梦境短片。",
+    "dependencies": [
+      "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "viral-video-breakdown-replication",
+    "title": "视频拆解与复刻",
+    "category": "视频制作",
+    "description": "分析参考视频的剧情、镜头、台词与节奏，输出可执行复刻流程。",
+    "example": "完整拆解我上传的参考视频，先交付逐镜表、角色和场景资产清单。",
+    "dependencies": []
+  },
+  {
+    "name": "wechat-article-copy-designer",
+    "title": "公众号图文创作",
+    "category": "写作与发布",
+    "description": "从主题生成公众号标题、摘要、正文和封面及插图提示词。",
+    "example": "面向职场新人写一篇“下班后的两小时”公众号图文，约1200字。",
+    "dependencies": []
+  },
+  {
+    "name": "y2k-dv-pov-story-video",
+    "title": "Y2K DV 第一人称短片",
+    "category": "视频制作",
+    "description": "锁定复古校园DV画风与角色场景，制作第一人称剧情短片。",
+    "example": "根据上传的参考视频，制作一段千禧年校园放学路上的第一人称短片。",
+    "dependencies": []
+  }
+]

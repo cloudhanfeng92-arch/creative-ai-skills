@@ -1,0 +1,4 @@
+interface:
+  display_name: "复古梦境超现实视频"
+  short_description: "生成复古梦境、日常物件悖论与超现实空间电影感完整短片"
+  default_prompt: "Use $vintage-dream-surreal-video to turn my idea into a nostalgic vintage dream-surreal video with coherent Midjourney V7 keyframes and gentle Seedance 2.0 transitions."

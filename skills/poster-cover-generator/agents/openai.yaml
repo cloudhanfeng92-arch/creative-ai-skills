@@ -1,0 +1,4 @@
+interface:
+  display_name: "海报封面生成器"
+  short_description: "根据用户文字或图片风格智能创作排版精致的海报与封面图像"
+  default_prompt: "Use $poster-cover-generator to create a poster cover from my text or reference image."

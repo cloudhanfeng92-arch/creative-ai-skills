@@ -1,0 +1,4 @@
+interface:
+  display_name: "FPV 导演运镜视频"
+  short_description: "从多张参考图设计并生成电影级 FPV 一镜到底运镜视频"
+  default_prompt: "使用 $fpv-director-video 分析我上传的图片，设计一段 15 秒 FPV 单镜头运镜，并在我确认后生成视频。"

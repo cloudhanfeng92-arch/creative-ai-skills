@@ -1,0 +1,4 @@
+interface:
+  display_name: "ComfyUI 通用工作流制作"
+  short_description: "按需求制作可迁移到主流云平台的 ComfyUI 工作流"
+  default_prompt: "Use $comfyui-workflow-builder to turn my requirements into a portable ComfyUI workflow package."

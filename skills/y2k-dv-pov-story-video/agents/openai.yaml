@@ -1,0 +1,4 @@
+interface:
+  display_name: "Y2K DV 第一人称剧情短片"
+  short_description: "锁定角色场景道具与真实Y2K校园DV画风并完成剧情成片"
+  default_prompt: "Use $y2k-dv-pov-story-video to turn my character references and story idea into a complete Y2K DV-style POV microdrama."

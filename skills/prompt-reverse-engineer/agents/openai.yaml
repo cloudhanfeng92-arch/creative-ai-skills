@@ -1,0 +1,4 @@
+interface:
+  display_name: "逐图提示词反推"
+  short_description: "强化画风质感、过滤水印的逐图中文提示词反推"
+  default_prompt: "使用 $prompt-reverse-engineer，逐张反推我上传图片的画风与视觉内容，每张输出一个标题和一组不含水印信息的中文图生图提示词。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "童趣蜡笔手绘 MJ"
+  short_description: "用稚拙蜡笔与糙纸绘本质感直接生成悠船V7温暖童趣插画"
+  default_prompt: "Use $naive-crayon-illustration-mj to generate a naive crayon illustration of a cheerful fox carrying a tiny umbrella."

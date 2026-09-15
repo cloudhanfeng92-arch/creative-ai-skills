@@ -1,0 +1,4 @@
+interface:
+  display_name: "速写本涂鸦插画 MJ"
+  short_description: "用温暖手绘质感与现代卡通美学直接生成悠船V7插画图像"
+  default_prompt: "Use $sketchbook-doodle-illustration-mj to generate a warm sketchbook-doodle illustration of a rabbit carrying flowers."
