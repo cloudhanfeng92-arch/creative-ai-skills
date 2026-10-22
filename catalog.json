@@ -312,30 +312,6 @@
     ]
   },
   {
-    "name": "liblib-lora-publisher",
-    "title": "哩布 LoRA 模型发布",
-    "category": "写作与发布",
-    "description": "将已有 LoRA 或平台已训练资产整理上架，补齐模型与版本资料、效果示例和可用性测试，并核验审核与公开页状态。",
-    "example": "把这个已有的LoRA模型发布到哩布，整理版本资料、示例和触发词，并核验公开页面。",
-    "dependencies": [
-      "Liblib.art 账号与发布权限",
-      "可用浏览器工具",
-      "已有 LoRA 文件或平台已训练资产；测试需可用运行能力与授权预算"
-    ]
-  },
-  {
-    "name": "liblib-template-publisher",
-    "title": "哩布图片模板发布",
-    "category": "写作与发布",
-    "description": "创建和发布哩布图片模板，默认采用玩法模式，完成输入设计、固定参考配置、测试、示例和详情页核验。",
-    "example": "把这个人物变手办效果做成哩布玩法图片模板，配置上传入口和示例并发布。",
-    "dependencies": [
-      "Liblib.art 账号与模板发布权限",
-      "可用浏览器工具",
-      "所选图片模型与测试预算"
-    ]
-  },
-  {
     "name": "million-transition-video",
     "title": "百万转场广告",
     "category": "广告与电商",
@@ -389,7 +365,7 @@
   {
     "name": "new-concept-first-prize-writing",
     "title": "新概念风格叙事写作",
-    "category": "写作与发布",
+    "category": "写作",
     "description": "按指定人物、事件、视角和参考文风创作克制、细节驱动的中文叙事。",
     "example": "写一篇1500字故事：旧厂门卫最后一次值夜，以第三人称叙述，结尾克制。",
     "dependencies": []
@@ -421,18 +397,6 @@
     "dependencies": []
   },
   {
-    "name": "runninghub-app-publisher",
-    "title": "RunningHub 工作流应用发布",
-    "category": "工作流工具",
-    "description": "复用图生图工作流制作 AI 应用，完成公开输入、封面、测试与发布，并核验同步AI站、公开试用和结果社区作品。",
-    "example": "把这个GPT Image 2图生图工作流做成RunningHub应用，配置输入，测试发布后试用并发布结果作品。",
-    "dependencies": [
-      "RunningHub 账号与可用工作流节点",
-      "Google Chrome 与 mcp__cua_repl",
-      "发布前测试和发布后试用所需授权预算；同步AI站需相应账号条件"
-    ]
-  },
-  {
     "name": "scene-multiview-bible-generator",
     "title": "场景多视角资料卡生成器",
     "category": "分镜与角色",
@@ -455,28 +419,6 @@
     ]
   },
   {
-    "name": "seaart-app-publisher",
-    "title": "海艺应用创作与参赛",
-    "category": "写作与发布",
-    "description": "研究视觉玩法和赛事，将创意封装为可测试、可发布的海艺应用。",
-    "example": "根据“宠物旅行海报”选题准备海艺应用方案和测试提示词，先不发布。",
-    "dependencies": [
-      "SeaArt / 海艺"
-    ]
-  },
-  {
-    "name": "seaart-flow-publisher",
-    "title": "海艺快应用模板发布",
-    "category": "工作流工具",
-    "description": "通过 Chrome 搭建 SeaArt Flow，补齐演示素材与封面，配置节点、输入输出及按需文本示例，发布后核验真实页面。",
-    "example": "把这个图像效果制作成海艺快应用，配置上传图片入口、封面和简介，发布后核验详情页。",
-    "dependencies": [
-      "Google Chrome 与 mcp__cua_repl",
-      "SeaArt 账号及 Flow 使用权限",
-      "内置图像生成能力；节点测试需所选模型权限和授权预算"
-    ]
-  },
-  {
     "name": "sketchbook-doodle-illustration-mj",
     "title": "速写本涂鸦插画",
     "category": "图像设计",
@@ -485,14 +427,6 @@
     "dependencies": [
       "悠船 / Midjourney"
     ]
-  },
-  {
-    "name": "social-media-publisher-operator",
-    "title": "中文社媒发布运营",
-    "category": "写作与发布",
-    "description": "把成品视频、图集或文章适配为各中文平台的发布素材与运营方案。",
-    "example": "把这段成片整理成小红书和B站标题、简介与标签，先保存为草稿。",
-    "dependencies": []
   },
   {
     "name": "song-dream-cinematic-images",
@@ -598,7 +532,7 @@
   {
     "name": "wechat-article-copy-designer",
     "title": "公众号图文创作",
-    "category": "写作与发布",
+    "category": "写作",
     "description": "从主题生成公众号标题、摘要、正文和封面及插图提示词。",
     "example": "面向职场新人写一篇“下班后的两小时”公众号图文，约1200字。",
     "dependencies": []

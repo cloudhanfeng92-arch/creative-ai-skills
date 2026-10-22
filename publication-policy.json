@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "updated_date": "2026-10-22",
+  "rule": "Do not upload skills whose primary purpose is platform publishing, application/template/model listing, or social-media publishing and operations.",
+  "excluded_skill_names": [
+    "liblib-lora-publisher",
+    "liblib-template-publisher",
+    "runninghub-app-publisher",
+    "seaart-app-publisher",
+    "seaart-flow-publisher",
+    "social-media-publisher-operator"
+  ],
+  "excluded_name_fragments": [
+    "publisher"
+  ],
+  "notes": "Local installed skills are retained. General repository management and content-writing skills are outside this exclusion."
+}

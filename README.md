@@ -2,7 +2,7 @@
 
 把一个想法，变成可执行的图像、分镜、视频、音乐与文字创作流程。
 
-这里收录 **61 个个人自建 AI Skill**，面向中文创作者。每个 Skill 都保留完整的 `SKILL.md`、配套参考资料与已有脚本，并提供中文简介和可直接复制的使用示例。
+这里收录 **55 个个人自建 AI Skill**，面向中文创作者。每个 Skill 都保留完整的 `SKILL.md`、配套参考资料与已有脚本，并提供中文简介和可直接复制的使用示例。
 
 **从这里开始：** [安装指南](docs/INSTALL.md) · [使用说明](docs/USAGE.md) · [工具依赖与来源](docs/DEPENDENCIES.md) · [完整机器可读目录](catalog.json)
 
@@ -12,8 +12,8 @@
 - **分镜与角色**：角色四视图、九格故事板、八格预演分镜。
 - **视频制作**：故事讲解、东方神话、山海神兽、复古梦境、FPV 与机甲变身。
 - **广告与电商**：食品商品图、电影广告分镜、游戏宣传片、科技产品 TVC。
-- **工具与研究**：GitHub 管理、代码动效、创作平台发布与股票数据研究。
-- **音乐与文字**：原创配乐、中文叙事、公众号图文与社媒素材适配。
+- **工具与研究**：GitHub 管理、代码动效与股票数据研究。
+- **音乐与文字**：原创配乐、中文叙事、公众号图文。
 
 ## 快速体验
 
@@ -116,18 +116,12 @@
 | --- | --- |
 | [ComfyUI 工作流制作](skills/comfyui-workflow-builder/README.md) | 按生成任务设计、适配和验证可迁移的 ComfyUI 工作流 JSON。 |
 | [GitHub 仓库管理](skills/github-manager/README.md) | 使用本地 Git 与 GitHub CLI 管理仓库、代码、Issue、PR、Release、Tag 和 Actions，发布前执行敏感信息扫描。 |
-| [RunningHub 工作流应用发布](skills/runninghub-app-publisher/README.md) | 复用图生图工作流制作 AI 应用，完成公开输入、封面、测试与发布，并核验同步AI站、公开试用和结果社区作品。 |
-| [海艺快应用模板发布](skills/seaart-flow-publisher/README.md) | 通过 Chrome 搭建 SeaArt Flow，补齐演示素材与封面，配置节点、输入输出及按需文本示例，发布后核验真实页面。 |
 
-### 写作与发布
+### 写作
 
 | Skill | 简介 |
 | --- | --- |
-| [哩布 LoRA 模型发布](skills/liblib-lora-publisher/README.md) | 将已有 LoRA 或平台已训练资产整理上架，补齐模型与版本资料、效果示例和可用性测试，并核验审核与公开页状态。 |
-| [哩布图片模板发布](skills/liblib-template-publisher/README.md) | 创建和发布哩布图片模板，默认采用玩法模式，完成输入设计、固定参考配置、测试、示例和详情页核验。 |
 | [新概念风格叙事写作](skills/new-concept-first-prize-writing/README.md) | 按指定人物、事件、视角和参考文风创作克制、细节驱动的中文叙事。 |
-| [海艺应用创作与参赛](skills/seaart-app-publisher/README.md) | 研究视觉玩法和赛事，将创意封装为可测试、可发布的海艺应用。 |
-| [中文社媒发布运营](skills/social-media-publisher-operator/README.md) | 把成品视频、图集或文章适配为各中文平台的发布素材与运营方案。 |
 | [公众号图文创作](skills/wechat-article-copy-designer/README.md) | 从主题生成公众号标题、摘要、正文和封面及插图提示词。 |
 
 ### 数据与研究
@@ -165,3 +159,7 @@ Skill 是交给 AI 助手的工作说明，不是独立运行的生图或剪辑�
 目前未指定仓库统一开源许可证。公开可见不代表附带任意再授权或商业分发许可；如需授权，请通过 [GitHub Issues](https://github.com/cloudhanfeng92-arch/creative-ai-skills/issues) 联系维护者。
 
 遇到问题时，请在 Issue 中注明 Skill 名称、宿主、所用平台、操作步骤与已去除凭据的错误信息。
+
+## 收录范围
+
+不收录以平台上架、模型/模板/应用发布、社媒发帖与发布运营为主要用途的 Skill。后续上传遵循 [发布排除规则](publication-policy.json)，本地安装版不受此规则影响。

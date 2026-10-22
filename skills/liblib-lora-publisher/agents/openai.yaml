@@ -1,4 +1,0 @@
-interface:
-  display_name: "哩布lora发布"
-  short_description: "发布哩布 LoRA 模型与新版本，配置真实示例并核验审核及公开状态"
-  default_prompt: "使用 $liblib-lora-publisher 将我已有的 LoRA 模型发布到哩布，整理模型资料和真实效果示例，并核验发布状态。"

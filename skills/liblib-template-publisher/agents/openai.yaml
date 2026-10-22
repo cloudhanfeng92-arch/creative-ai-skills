@@ -1,4 +1,0 @@
-interface:
-  display_name: "哩布模板发布"
-  short_description: "以玩法模式为主、风格模式为备选，完成哩布图片模板测试、发布与示例核验"
-  default_prompt: "使用 $liblib-template-publisher，根据我的需求制作并发布哩布图片模板，默认玩法模式、风格模式备选，完成测试、添加示例和公开页面核验。"
