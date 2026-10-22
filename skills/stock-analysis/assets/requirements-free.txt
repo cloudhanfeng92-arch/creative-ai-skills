@@ -1,0 +1,4 @@
+# Reviewed package releases. Runtime lives outside the portable skill folder.
+akshare==1.19.1
+yfinance==1.7.0
+tzdata>=2025.2

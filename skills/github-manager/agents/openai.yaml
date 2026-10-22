@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Manager"
+  short_description: "Manage GitHub repositories and delivery workflows with gh"
+  default_prompt: "Manage this GitHub task safely using git, gh, and gh api."

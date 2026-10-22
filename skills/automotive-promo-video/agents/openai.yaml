@@ -1,0 +1,4 @@
+interface:
+  display_name: "汽车宣传片导演"
+  short_description: "从汽车照片制作统一外观与内饰参考、电影分镜和完整汽车宣传短片"
+  default_prompt: "使用 $automotive-promo-video，根据我上传的汽车图片和要求，先拆解车辆特征并提交分镜及参考图提示词，确认后生成多视角参考、分镜图和成片。"

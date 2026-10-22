@@ -1,0 +1,30 @@
+# Configuration examples only. Merge chosen sections into existing config.toml;
+# do not replace the whole file. This template contains no secrets.
+# This top-level key must appear before TOML [tables].
+web_search = "live"
+
+# Optional: cross-agent search and public-page extraction.
+# Verified actual tool names use underscores.
+[mcp_servers.stock_web]
+url = "https://mcp.tavily.com/mcp/"
+http_headers = { "X-Tavily-Access-Mode" = "keyless" }
+enabled_tools = ["tavily_search", "tavily_extract"]
+startup_timeout_sec = 20
+tool_timeout_sec = 45
+
+# Optional keyed alternative for the same server:
+# Remove the http_headers line above and add:
+# bearer_token_env_var = "TAVILY_API_KEY"
+# The Codex process must actually receive that environment variable.
+
+# Tushare hosted MCP: copy the full private URL from YOUR account's MCP Server page.
+# Kept disabled here: this is a placeholder, not a working connection.
+# Tushare currently documents token-in-path auth. Do not assume Bearer auth works.
+# Do not put a real private URL in a shared archive, report, chat, or version control.
+[mcp_servers.stock_tushare]
+url = "https://api.tushare.pro/mcp/token=REPLACE_LOCALLY_FROM_YOUR_ACCOUNT"
+enabled = false
+startup_timeout_sec = 20
+tool_timeout_sec = 45
+# Enable only after replacing the URL locally and verifying account entitlement.
+# Ordinary daily/history access does not automatically grant rt_k access.

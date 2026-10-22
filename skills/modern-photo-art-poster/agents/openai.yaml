@@ -1,0 +1,4 @@
+interface:
+  display_name: "现代艺术摄影再设计海报"
+  short_description: "按照片横竖自动选择对照布局，以同一主体裁切制作摄影与现代印刷艺术海报"
+  default_prompt: "使用 $modern-photo-art-poster，按照片方向自动选择左右或上下等分布局，两区使用同一主体裁切，制作现代艺术摄影再设计海报。"

@@ -1,0 +1,334 @@
+{
+  "id": "8c4d7729-32ba-44c1-8706-1d82870b11db",
+  "revision": 0,
+  "last_node_id": 20,
+  "last_link_id": 28,
+  "nodes": [
+    {
+      "id": 19,
+      "type": "SaveImage",
+      "pos": [
+        1227.1229248046875,
+        161.45030212402344
+      ],
+      "size": [
+        270,
+        78
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 28
+        },
+        {
+          "label": "filename_prefix",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "image_urls",
+          "name": "image_urls",
+          "type": "STRING"
+        },
+        {
+          "label": "images",
+          "name": "images",
+          "type": "IMAGE"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "ComfyUI"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "LoadImage",
+      "pos": [
+        247.8292694091797,
+        105.52607727050781
+      ],
+      "size": [
+        274.080078125,
+        314
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "image",
+          "name": "image",
+          "type": "COMBO",
+          "widget": {
+            "name": "image"
+          }
+        },
+        {
+          "label": "upload",
+          "name": "upload",
+          "type": "IMAGEUPLOAD",
+          "widget": {
+            "name": "upload"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "IMAGE",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            27
+          ]
+        },
+        {
+          "label": "MASK",
+          "name": "MASK",
+          "type": "MASK"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "example.png",
+        "image"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "RH_RhartImageG2ImageToImage",
+      "pos": [
+        716.9865112304688,
+        177.79248046875
+      ],
+      "size": [
+        400,
+        408
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "image1",
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 27
+        },
+        {
+          "label": "image2",
+          "name": "image2",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image3",
+          "name": "image3",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image4",
+          "name": "image4",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image5",
+          "name": "image5",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image6",
+          "name": "image6",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image7",
+          "name": "image7",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image8",
+          "name": "image8",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image9",
+          "name": "image9",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "image10",
+          "name": "image10",
+          "shape": 7,
+          "type": "IMAGE"
+        },
+        {
+          "label": "api_config",
+          "name": "api_config",
+          "shape": 7,
+          "type": "RH_OPENAPI_CONFIG"
+        },
+        {
+          "label": "prompt",
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          }
+        },
+        {
+          "label": "aspectRatio",
+          "name": "aspectRatio",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "aspectRatio"
+          }
+        },
+        {
+          "label": "skip_error",
+          "name": "skip_error",
+          "shape": 7,
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "skip_error"
+          }
+        },
+        {
+          "label": "seed",
+          "name": "seed",
+          "shape": 7,
+          "type": "INT",
+          "widget": {
+            "name": "seed"
+          }
+        },
+        {
+          "label": "resolution",
+          "name": "resolution",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "resolution"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "label": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "links": [
+            28
+          ]
+        },
+        {
+          "label": "url",
+          "name": "url",
+          "type": "STRING"
+        },
+        {
+          "label": "response",
+          "name": "response",
+          "type": "STRING"
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RH_RhartImageG2ImageToImage",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "",
+        "3:4",
+        false,
+        0,
+        "randomize",
+        "1k"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    }
+  ],
+  "links": [
+    [
+      27,
+      15,
+      0,
+      20,
+      0,
+      "IMAGE"
+    ],
+    [
+      28,
+      20,
+      0,
+      19,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "Group",
+      "bounding": [
+        226.0625,
+        36.630470275878906,
+        1455.5738525390625,
+        739.9827880859375
+      ],
+      "color": "#3f789e",
+      "font_size": 24,
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "links_added_by_ue": [],
+    "VHS_KeepIntermediate": true,
+    "ue_links": [],
+    "VHS_MetadataImage": true,
+    "0246.VERSION": [
+      0,
+      0,
+      4
+    ],
+    "pixaromaGroups": [],
+    "VHS_latentpreviewrate": 0,
+    "frontendVersion": "1.23.0",
+    "VHS_latentpreview": false,
+    "ds": {
+      "scale": 0.7247295000000004,
+      "offset": [
+        -308.73080770349566,
+        -15.069561342728775
+      ]
+    },
+    "KKvideo_latentpreview": false,
+    "KKvideo_latentpreviewrate": 0
+  },
+  "version": 0.4
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "MJ提示词skill V2.2"
+  short_description: "Midjourney 英文提示词；场景逻辑、主导视觉关系、机位美学、光影与信息层级、文字/参考图统一风格编译；默认 V8.2"
+  default_prompt: "使用 MJ提示词skill V2.2，按本轮场景及风格要求生成或优化 Midjourney 英文提示词。"

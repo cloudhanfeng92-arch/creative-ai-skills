@@ -1,0 +1,4 @@
+interface:
+  display_name: "股票投资分析"
+  short_description: "以A股为主核验最新数据，按需完成综合、基本面、技术、估值、财报、组合、行业与风险研究"
+  default_prompt: "使用 $stock-analysis 完成本次研究，先核查数据时点，再给出结论、证据和风险。"

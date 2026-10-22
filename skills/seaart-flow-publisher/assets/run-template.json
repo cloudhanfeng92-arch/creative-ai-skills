@@ -1,0 +1,68 @@
+{
+  "schema_version": 4,
+  "skill": "seaart-flow-publisher",
+  "created_at": null,
+  "request_summary": "",
+  "account_display_name": null,
+  "authorization": {
+    "create_or_edit": false,
+    "publish": false,
+    "run_budget": null,
+    "max_runs": null,
+    "subscription": null,
+    "incentive_plan": false,
+    "community_publish": null
+  },
+  "project": {"name": "", "id": null, "url": null, "save_verified": false},
+  "nodes": [],
+  "connections": [],
+  "inputs": [],
+  "outputs": [],
+  "language": {
+    "labels_and_description": "user_language",
+    "public_text_defaults_and_examples": "en",
+    "user_override": null,
+    "public_defaults_verified": false
+  },
+  "materials": [],
+  "demo_materials": {
+    "default_source": "built_in_image_gen",
+    "status": "not_started",
+    "required_inputs": [],
+    "items": [],
+    "identity_consistency_verified": false,
+    "angle_expression_variation_reviewed": false,
+    "alignment_required_reason": null,
+    "all_uploads_verified": false
+  },
+  "app": {"name": "", "english_name": "", "description": "", "description_format": "five_emoji_lines", "tags": [], "cover_path": null, "cover_verified": false, "id": null, "url": null},
+  "cover": {
+    "source": "built_in_image_gen",
+    "status": "not_started",
+    "aspect_ratio": "3:4",
+    "english_title": "",
+    "prompt": "",
+    "path": null,
+    "width": null,
+    "height": null,
+    "person_demo_preference": "western_faces_unless_identity_locked",
+    "ratio_verified": false,
+    "title_verified": false,
+    "gameplay_visual_verified": false,
+    "uploaded_preview_verified": false
+  },
+  "test": {"status": "not_run", "runs": [], "visual_review": null},
+  "publication": {
+    "status": "not_started",
+    "success_message_seen": false,
+    "detail_verified": false,
+    "personal_listing_verified": false,
+    "description_persisted_verified": false,
+    "category_tags_verified": false,
+    "detail_refreshed_after_update": false,
+    "input_output_bindings_verified": false,
+    "public_example_interaction_verified": false
+  },
+  "evidence": [],
+  "unresolved": []
+}

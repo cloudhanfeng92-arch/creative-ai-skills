@@ -1,0 +1,7 @@
+interface:
+  display_name: "代码动态视频"
+  short_description: "以视觉概念、动作编排与连续转场制作动画，交付MP4、HTML、封面和源码"
+  default_prompt: "使用 $code-motion-video，先设计视觉论点、关键构图与主次动作，再用代码完成当前主题；编排字图、镜头、转场与音乐，默认不朗读，后台交付MP4、离线HTML、代码封面和源码。 网页预览按需；浏览器操作仅用 Codex 内置浏览器，禁止外部浏览器，未完成导出时如实报告。"
+
+policy:
+  allow_implicit_invocation: true

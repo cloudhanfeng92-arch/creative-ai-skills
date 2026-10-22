@@ -1,0 +1,6 @@
+interface:
+  display_name: "RunningHub 应用发布"
+  short_description: "用工作流制作 RunningHub 应用，同步 AI 站并试用发帖"
+  default_prompt: "使用 $runninghub-app-publisher 制作并发布我的 RunningHub 应用，开启同步AI站，发布后试用一次并将结果发布到社区。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,4 @@
+interface:
+  display_name: "特级动效设计导演"
+  short_description: "设计师式动作编排、连续转场、物理一致、按片名交付"
+  default_prompt: "使用 $elite-motion-director，先作为优秀动态图形设计师构思关键构图与动作编排，再实现当前主题；转场承接动势，保持物理一致，默认无朗读，按片名交付MP4、离线HTML、封面和源码。网页预览按需，浏览器操作仅用Codex内置浏览器；禁止使用外部浏览器，未完成导出时如实报告。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "冲击帧与意向帧生成"
+  short_description: "从攻击前一帧生成独立冲击图与意向帧，保持人物动作和画面连续性"
+  default_prompt: "使用 $impact-frame-generator，基于我上传的攻击前一帧生成三张人物冲击图和三张意向帧，保持原图比例、人物与武器一致，并交付每张图片和建议插帧顺序。"

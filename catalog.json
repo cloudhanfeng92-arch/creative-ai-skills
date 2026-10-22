@@ -30,6 +30,42 @@
     ]
   },
   {
+    "name": "automotive-promo-video",
+    "title": "汽车宣传片导演",
+    "category": "广告与电商",
+    "description": "从汽车照片与可选参考视频制作宣传短片，先锁定车辆多视角参考，再生成分镜图与视频并剪辑交付。",
+    "example": "根据这辆汽车的照片，制作一支20秒的豪华汽车宣传片，先给我分镜和参考图方案。",
+    "dependencies": [
+      "libtv-cli 与可用的 LibTV 账号",
+      "Lib Image 2.5 Pro、Seedance 2.5 的可用权限",
+      "ffmpeg-skill；剪映工程按需使用 jianying-editor"
+    ]
+  },
+  {
+    "name": "automotive-promo-video-reference",
+    "title": "汽车宣传片导演·无分镜图版",
+    "category": "广告与电商",
+    "description": "以剧本、文字分镜和车辆四视图直接组织多图参考视频，按需补充内饰与场景资料卡，无需逐镜生成分镜图。",
+    "example": "用这辆车的照片制作20秒宣传片，采用车辆四视图直接生视频，不生成逐镜分镜图。",
+    "dependencies": [
+      "libtv-cli 与可用的 LibTV 账号",
+      "Lib Image 2.5 Pro、Seedance 2.5 多图参考能力",
+      "本地剪辑按需使用 ffmpeg-skill"
+    ]
+  },
+  {
+    "name": "automotive-promo-video-rhythm",
+    "title": "汽车宣传片导演·节奏优化版",
+    "category": "广告与电商",
+    "description": "围绕细节快切、整车留白、内外饰转折和行驶速度变化设计汽车广告节奏，完成参考图、分镜、生成与剪辑。",
+    "example": "参考这支汽车短片的节奏，为我的车设计有快切和留白的宣传片，先给我节奏结构与逐镜表。",
+    "dependencies": [
+      "libtv-cli 与可用的 LibTV 账号",
+      "Lib Image 2.5 Pro、Seedance 2.5 的可用权限",
+      "ffmpeg-skill；剪映工程按需使用 jianying-editor"
+    ]
+  },
+  {
     "name": "character-plot-storyboard",
     "title": "九格铅笔故事板",
     "category": "分镜与角色",
@@ -44,6 +80,17 @@
     "description": "从一张角色图生成正面、侧面、背面全身及面部特写参考。",
     "example": "把上传的角色图制作成四视图设定表，保持服装和画风一致。",
     "dependencies": []
+  },
+  {
+    "name": "chinese-film-aesthetic-image-video",
+    "title": "中式胶片美学·生图与视频",
+    "category": "视频制作",
+    "description": "将人物、古装与中式场景需求转为35mm胶片电影画面，先提供候选图，再按选图制作克制的微动效视频。",
+    "example": "设计一位雨夜竹林中的白衣剑客，先给我中式胶片电影风生图提示词，确认后再生成。",
+    "dependencies": [
+      "libtv-cli 与可用的 LibTV 账号",
+      "Style Image V8.2、Seedance 2.5 的可用权限"
+    ]
   },
   {
     "name": "cinematic-ad-storyboard",
@@ -71,6 +118,18 @@
     "example": "把上传的海边城市照片做成竖版编辑艺术海报，加入英文标题。",
     "dependencies": [
       "LibTV / libtv CLI"
+    ]
+  },
+  {
+    "name": "code-motion-video",
+    "title": "代码动态视频",
+    "category": "视频制作",
+    "description": "按主题选择 Canvas、WebGL、SVG 或 Three.js 制作动态文字与图形动画，提供视频、可播放 HTML、封面和源码。",
+    "example": "用代码制作一支15秒的几何变形动画，配原创音乐，交付MP4、HTML、封面和源码。",
+    "dependencies": [
+      "JavaScript/Node.js 运行环境",
+      "实际可用的内置浏览器导出能力，或项目已有兼容原生绘制入口与 FFmpeg",
+      "按画面需要使用 Canvas、WebGL、SVG 或 Three.js"
     ]
   },
   {
@@ -103,6 +162,17 @@
     "example": "制作孤身旅人走向云端巨型山门的仙侠短片。",
     "dependencies": [
       "悠船 / Midjourney"
+    ]
+  },
+  {
+    "name": "elite-motion-director",
+    "title": "特级动效设计导演",
+    "category": "视频制作",
+    "description": "从视觉概念、关键构图和动作编排出发制作单条动态图形视频，强调连续转场，并统一交付视频、离线网页、封面和源码。",
+    "example": "制作一支“光的旅程”动态图形短片，强调连续转场和动态排版，不要口播。",
+    "dependencies": [
+      "Node.js、FFmpeg/FFprobe",
+      "实际可用的 Codex 内置浏览器导出能力，或项目已有兼容原生绘制入口"
     ]
   },
   {
@@ -186,6 +256,17 @@
     ]
   },
   {
+    "name": "github-manager",
+    "title": "GitHub 仓库管理",
+    "category": "工作流工具",
+    "description": "使用本地 Git 与 GitHub CLI 管理仓库、代码、Issue、PR、Release、Tag 和 Actions，发布前执行敏感信息扫描。",
+    "example": "检查这个项目的 Git 状态，把已完成改动提交并上传到现有 GitHub 仓库。",
+    "dependencies": [
+      "本地 Git",
+      "GitHub CLI（gh）及目标账号授权"
+    ]
+  },
+  {
     "name": "idiom-story-explainer-storyboard-to-video",
     "title": "成语故事讲解视频",
     "category": "视频制作",
@@ -200,6 +281,17 @@
     "description": "分析图片内容与构图，编写匹配的运动提示词，确认后生成视频。",
     "example": "分析上传的图片，写出自然的动作和运镜提示词，确认后生成视频。",
     "dependencies": []
+  },
+  {
+    "name": "impact-frame-generator",
+    "title": "冲击帧与意向帧生成",
+    "category": "图像设计",
+    "description": "根据攻击前一帧生成保持动作连续性的高反差冲击图与相关意向帧，交付独立静态图片及建议插帧顺序。",
+    "example": "根据这张挥剑前的画面，制作三张冲击帧和三张与剑气有关的意向帧。",
+    "dependencies": [
+      "可查看的攻击前一帧图片",
+      "内置 image_gen 图像生成与编辑能力；指定平台时使用该平台现有能力"
+    ]
   },
   {
     "name": "ink-wuxia-image",
@@ -220,6 +312,30 @@
     ]
   },
   {
+    "name": "liblib-lora-publisher",
+    "title": "哩布 LoRA 模型发布",
+    "category": "写作与发布",
+    "description": "将已有 LoRA 或平台已训练资产整理上架，补齐模型与版本资料、效果示例和可用性测试，并核验审核与公开页状态。",
+    "example": "把这个已有的LoRA模型发布到哩布，整理版本资料、示例和触发词，并核验公开页面。",
+    "dependencies": [
+      "Liblib.art 账号与发布权限",
+      "可用浏览器工具",
+      "已有 LoRA 文件或平台已训练资产；测试需可用运行能力与授权预算"
+    ]
+  },
+  {
+    "name": "liblib-template-publisher",
+    "title": "哩布图片模板发布",
+    "category": "写作与发布",
+    "description": "创建和发布哩布图片模板，默认采用玩法模式，完成输入设计、固定参考配置、测试、示例和详情页核验。",
+    "example": "把这个人物变手办效果做成哩布玩法图片模板，配置上传入口和示例并发布。",
+    "dependencies": [
+      "Liblib.art 账号与模板发布权限",
+      "可用浏览器工具",
+      "所选图片模型与测试预算"
+    ]
+  },
+  {
     "name": "million-transition-video",
     "title": "百万转场广告",
     "category": "广告与电商",
@@ -228,6 +344,28 @@
     "dependencies": [
       "LibTV / libtv CLI",
       "即梦 / Dreamina"
+    ]
+  },
+  {
+    "name": "mj-prompt-skill-v2-2",
+    "title": "MJ 场景提示词 V2.2",
+    "category": "图像设计",
+    "description": "为城市、自然、建筑与架空世界设计 Midjourney 场景提示词，统一主体身份、空间结构、镜头构图和指定风格。",
+    "example": "为悬崖上的古代港口城市编写Midjourney英文提示词，保持港口结构合理，采用水彩插画风格。",
+    "dependencies": [
+      "提示词编写无需外部生成服务",
+      "实际生图需用户选择的 Midjourney 或兼容平台"
+    ]
+  },
+  {
+    "name": "modern-photo-art-poster",
+    "title": "现代艺术摄影对照海报",
+    "category": "图像设计",
+    "description": "将真实照片转成摄影与现代主义印刷艺术的对照海报，两区保持相同取景，依据照片方向安排版式并配克制英文排版。",
+    "example": "把这张街景照片制作成现代艺术摄影对照海报，两区保持相同取景范围，使用简洁英文排版。",
+    "dependencies": [
+      "原始摄影图片",
+      "内置 image_gen 图像编辑能力"
     ]
   },
   {
@@ -257,6 +395,16 @@
     "dependencies": []
   },
   {
+    "name": "oriental-fantasy-prompter",
+    "title": "东方奇幻插画提示词",
+    "category": "图像设计",
+    "description": "编写东方矿物设色与诗意奇幻插画提示词，支持花庭诗境、壁画神境和人物场景替换，中英文按各自规范独立成稿。",
+    "example": "为一位漫步莲花庭院的女子编写东方矿物设色奇幻插画提示词，分别提供中文和英文版本。",
+    "dependencies": [
+      "无需外部生成服务；仅编写或改写提示词"
+    ]
+  },
+  {
     "name": "poster-cover-generator",
     "title": "海报封面生成器",
     "category": "图像设计",
@@ -273,6 +421,40 @@
     "dependencies": []
   },
   {
+    "name": "runninghub-app-publisher",
+    "title": "RunningHub 工作流应用发布",
+    "category": "工作流工具",
+    "description": "复用图生图工作流制作 AI 应用，完成公开输入、封面、测试与发布，并核验同步AI站、公开试用和结果社区作品。",
+    "example": "把这个GPT Image 2图生图工作流做成RunningHub应用，配置输入，测试发布后试用并发布结果作品。",
+    "dependencies": [
+      "RunningHub 账号与可用工作流节点",
+      "Google Chrome 与 mcp__cua_repl",
+      "发布前测试和发布后试用所需授权预算；同步AI站需相应账号条件"
+    ]
+  },
+  {
+    "name": "scene-multiview-bible-generator",
+    "title": "场景多视角资料卡生成器",
+    "category": "分镜与角色",
+    "description": "从文字或参考图生成横向场景资料卡，统一主视角、反打及前后左右视角的空间关系，用于影视和 AI 视频前期设定。",
+    "example": "根据这张客栈参考图生成一张场景多视角资料卡，包含主视角、反打和前后左右视角。",
+    "dependencies": [
+      "可用的 Lib Image 2.5 图像生成能力；Lib Image 为备用模型"
+    ]
+  },
+  {
+    "name": "script-to-short-drama",
+    "title": "完整剧本转 AI 短剧",
+    "category": "视频制作",
+    "description": "解析完整剧本与对白，建立角色四视图和场景资料卡，规划连续时间轴与生成段，经确认后制作并按需求剪辑成片。",
+    "example": "把这份完整剧本制作成竖屏短剧，保留全部对白，先整理角色四视图、场景卡和分段生成方案。",
+    "dependencies": [
+      "完整剧本",
+      "用户选定平台的图像与视频生成能力",
+      "使用 LibTV 时需 libtv-cli 与 VIP 无水印下载能力；成片需可用剪辑导出工具"
+    ]
+  },
+  {
     "name": "seaart-app-publisher",
     "title": "海艺应用创作与参赛",
     "category": "写作与发布",
@@ -280,6 +462,18 @@
     "example": "根据“宠物旅行海报”选题准备海艺应用方案和测试提示词，先不发布。",
     "dependencies": [
       "SeaArt / 海艺"
+    ]
+  },
+  {
+    "name": "seaart-flow-publisher",
+    "title": "海艺快应用模板发布",
+    "category": "工作流工具",
+    "description": "通过 Chrome 搭建 SeaArt Flow，补齐演示素材与封面，配置节点、输入输出及按需文本示例，发布后核验真实页面。",
+    "example": "把这个图像效果制作成海艺快应用，配置上传图片入口、封面和简介，发布后核验详情页。",
+    "dependencies": [
+      "Google Chrome 与 mcp__cua_repl",
+      "SeaArt 账号及 Flow 使用权限",
+      "内置图像生成能力；节点测试需所选模型权限和授权预算"
     ]
   },
   {
@@ -312,6 +506,18 @@
     ]
   },
   {
+    "name": "stock-analysis",
+    "title": "股票投资分析",
+    "category": "数据与研究",
+    "description": "以 A 股为主兼顾港美股，获取行情与财报并核验披露，按问题开展基本面、技术面、估值、组合、行业和风险研究，不执行交易。",
+    "example": "分析这只股票的基本面、估值和主要风险，核对最新财报，并区分短期交易条件与长期观点。",
+    "dependencies": [
+      "Python 3.11+",
+      "AKShare、yfinance（由内置脚本初始化独立环境）",
+      "网页搜索与原始披露读取能力；Tushare 为可选增强"
+    ]
+  },
+  {
     "name": "story-explainer-video",
     "title": "故事讲解视频",
     "category": "视频制作",
@@ -338,6 +544,18 @@
     "description": "从产品视觉锚点与分镜延伸到镜头、配乐、剪辑和广告成片。",
     "example": "根据上传的耳机照片制作20秒科技产品广告，只使用我提供的卖点。",
     "dependencies": []
+  },
+  {
+    "name": "topic-motion-video",
+    "title": "主题科普代码动画",
+    "category": "视频制作",
+    "description": "围绕单个主题进行事实核查、脚本与原创图解动画制作，用动态文字和图形解释知识，交付视频、可播放网页、封面及源码。",
+    "example": "制作一支约90秒的“潮汐如何形成”科普动画，用动态图解解释，不要口播，配原创音乐。",
+    "dependencies": [
+      "JavaScript/Node.js 运行环境与事实核查能力",
+      "实际可用的内置浏览器导出能力，或项目已有兼容原生绘制入口与 FFmpeg",
+      "可复用 code-motion-video 工具；按画面需要使用 Canvas、WebGL、SVG 或 Three.js"
+    ]
   },
   {
     "name": "ue5-mecha-transformation-video",

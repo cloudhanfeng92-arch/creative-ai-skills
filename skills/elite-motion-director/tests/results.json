@@ -1,0 +1,122 @@
+{
+  "version": "2.1.0",
+  "verificationDate": "2026-10-03",
+  "skillMetadata": "passed",
+  "referencePaths": 16,
+  "javascriptSyntaxFiles": 16,
+  "unitTests": {
+    "total": 23,
+    "naming": 7,
+    "motion": 10,
+    "physics": 6,
+    "passed": 23
+  },
+  "fontBundlingRejection": "passed",
+  "sourceExtractedHTMLRebuild": "passed",
+  "integration": {
+    "audio": {
+      "names": {
+        "stem": "相遇的轨迹",
+        "video": "相遇的轨迹.mp4",
+        "html": "相遇的轨迹.html",
+        "cover": "相遇的轨迹_封面.png",
+        "source": "相遇的轨迹_源码.zip",
+        "sourceRoot": "相遇的轨迹_源码",
+        "partialVideo": "相遇的轨迹.partial.mp4"
+      },
+      "verification": {
+        "files": {
+          "stem": "相遇的轨迹",
+          "video": "相遇的轨迹.mp4",
+          "html": "相遇的轨迹.html",
+          "cover": "相遇的轨迹_封面.png",
+          "source": "相遇的轨迹_源码.zip",
+          "sourceRoot": "相遇的轨迹_源码",
+          "partialVideo": "相遇的轨迹.partial.mp4"
+        },
+        "technical": {
+          "width": 640,
+          "height": 360,
+          "fps": "30/1",
+          "codec": "h264",
+          "duration": "2.000000",
+          "audio": "aac",
+          "decoded": true
+        },
+        "offline": {
+          "loaded": true,
+          "loadMode": "inline-offline",
+          "fileURLVerified": false,
+          "fileURLWarning": "当前浏览器管理员策略禁止file://；只验证了生成内容的断网内联播放，未验证双击文件。",
+          "repeatedFrameIdentical": true,
+          "play": true,
+          "pause": true,
+          "seek": true,
+          "restart": true,
+          "networkRequests": [],
+          "audioUsesSameMaster": true
+        },
+        "artDirection": "需要实际观察；本脚本不评判美感",
+        "physics": "需要按当前对象约束检查；本脚本不推断",
+        "listening": "未试听：本脚本不能替代听感检查"
+      },
+      "sourceCRC": "passed",
+      "sourceRoot": "passed",
+      "noGenericDeliverables": true
+    },
+    "silent": {
+      "names": {
+        "stem": "轨迹／星海？",
+        "video": "轨迹／星海？.mp4",
+        "html": "轨迹／星海？.html",
+        "cover": "轨迹／星海？_封面.png",
+        "source": "轨迹／星海？_源码.zip",
+        "sourceRoot": "轨迹／星海？_源码",
+        "partialVideo": "轨迹／星海？.partial.mp4"
+      },
+      "verification": {
+        "files": {
+          "stem": "轨迹／星海？",
+          "video": "轨迹／星海？.mp4",
+          "html": "轨迹／星海？.html",
+          "cover": "轨迹／星海？_封面.png",
+          "source": "轨迹／星海？_源码.zip",
+          "sourceRoot": "轨迹／星海？_源码",
+          "partialVideo": "轨迹／星海？.partial.mp4"
+        },
+        "technical": {
+          "width": 360,
+          "height": 640,
+          "fps": "24/1",
+          "codec": "h264",
+          "duration": "1.000000",
+          "audio": null,
+          "decoded": true
+        },
+        "offline": {
+          "loaded": true,
+          "loadMode": "inline-offline",
+          "fileURLVerified": false,
+          "fileURLWarning": "当前浏览器管理员策略禁止file://；只验证了生成内容的断网内联播放，未验证双击文件。",
+          "repeatedFrameIdentical": true,
+          "play": true,
+          "pause": true,
+          "seek": true,
+          "restart": true,
+          "networkRequests": [],
+          "audioUsesSameMaster": false
+        },
+        "artDirection": "需要实际观察；本脚本不评判美感",
+        "physics": "需要按当前对象约束检查；本脚本不推断",
+        "listening": "未试听：本脚本不能替代听感检查"
+      },
+      "sourceCRC": "passed",
+      "sourceRoot": "passed",
+      "noGenericDeliverables": true
+    },
+    "titleMismatchGuard": "passed"
+  },
+  "designGuidance": "Updated; no automatic artistic-quality claim",
+  "userComputerTested": false,
+  "fullCreativeFilmMade": false
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "汽车宣传片导演·节奏优化版"
+  short_description: "参考豪车短片优化长短镜、细节快切与行驶节奏，完成一致性汽车宣传片"
+  default_prompt: "使用 $automotive-promo-video-rhythm，根据我的汽车图片先设计有快慢层次和动作剪点的分镜，确认后生成统一外观内饰参考、分镜图和成片。"

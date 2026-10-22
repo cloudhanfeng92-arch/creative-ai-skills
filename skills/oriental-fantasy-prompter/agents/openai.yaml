@@ -1,0 +1,4 @@
+interface:
+  display_name: "东方奇幻提示词"
+  short_description: "依据中文与英文两套规范，编写可替换人物和场景的东方诗意奇幻提示词"
+  default_prompt: "使用 $oriental-fantasy-prompter，按中文与英文各自的规范，为我指定的人物与场景分别编写东方奇幻生图提示词。"

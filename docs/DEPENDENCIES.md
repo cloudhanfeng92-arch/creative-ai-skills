@@ -30,6 +30,8 @@
 | `libtv-cli` | LibTV 官方 CLI 操作 Skill，从官方渠道安装 |
 | `dreamina-cli`、`dreamina-canvas-cli` | 即梦 CLI / 画布工具配套 Skill，从其分发渠道安装 |
 | `seaartai` | SeaArt 官方 Skill，从官方渠道安装 |
+| `hyperframes` 系列、`media-use` | [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)，作为第三方依赖另行安装 |
+| `ms-hub`、`ms-studio-deploy` | [modelscope/modelscope-skills](https://github.com/modelscope/modelscope-skills)，不作为个人自建内容重新发布 |
 | 插件缓存中的 Skill | 属于已安装插件，未随个人工作流重新分发 |
 
 这些依赖未打包不影响浏览和学习本仓库，但执行依赖它们的工作流前需要另行安装。上游项目的内容、许可和运行要求以其自身说明为准。
@@ -42,3 +44,13 @@
 - 不包含账号凭据、登录状态、个人缓存、Git 内部目录或已识别第三方包。
 - 缩短一处超长的 Skill 发现描述；业务执行正文保持不变。
 - 未改写各 Skill 的业务流程，也未执行付费生成任务。
+
+## 2026-10-22 补充发布
+
+新增 19 个此前未发布的自建 Skill，总目录现有 61 个条目。每项提供独立仓库、中文说明、安装入口和使用示例，配套文件按本地当前安装版打包。
+
+- 发布副本将一处个人 LibTV 安装路径改为通用路径；SeaArt 两处私人素材目录及历史授权改为当前用户提供或明确授权的素材目录。
+- `stock-analysis` 的凭据示例全部为空，MCP 地址为禁用的占位模板；读取环境变量的代码不包含密钥。
+- 不包含第三方安装包、账号数据、个人运行记录、缓存或媒体产物；本地已安装 Skill 保持原样。
+- 新增流程涉及的 RunningHub、Liblib、Google Chrome、Node.js、Git/GitHub CLI、Blender（按具体路线）以及 AKShare/yfinance 等依赖需要使用者另行准备。
+- 本次只做发布包静态检查和 GitHub 内容核验，未重新执行生成、平台发布或金融数据调用。

@@ -1,0 +1,4 @@
+interface:
+  display_name: "剧本生成短剧一键"
+  short_description: "从完整剧本与可选参考图制作短剧，生成角色四视图及单张多视角场景卡"
+  default_prompt: "使用 $script-to-short-drama 根据我提供的完整剧本和参考图，解析剧情并制作角色四视图、每场景一张多视角资料卡及短剧视频。"

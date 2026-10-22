@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "stage": "planned",
+  "project_name": "",
+  "project_directory": "",
+  "libtv_project_uuid": null,
+  "creative": {
+    "style": null,
+    "target_duration_seconds": 20,
+    "ratio": "16:9",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "interior_required": null,
+    "interior_evidence_status": "unknown",
+    "music_source": null,
+    "voiceover": false,
+    "copy": null
+  },
+  "model_snapshot": {
+    "checked_at": null,
+    "image_display_name": "Lib Image 2.5 Pro",
+    "image_model_key": null,
+    "video_display_name": "Seedance 2.5",
+    "video_model_key": null,
+    "schema_files": []
+  },
+  "approvals": [],
+  "source_assets": [],
+  "vehicle_bible": "vehicle-bible.md",
+  "reference_assets": [],
+  "shots": [],
+  "generation_jobs": [],
+  "edit": {
+    "edl_path": null,
+    "renderer_project_path": null,
+    "render_status": "not_started",
+    "final_path": null,
+    "probe_path": null,
+    "visual_review": null,
+    "audio_review": null
+  },
+  "unresolved": [],
+  "skill_variant": "automotive-promo-video-rhythm",
+  "rhythm": {
+    "route": null,
+    "reference_ids": [],
+    "target_total_frames": 600,
+    "timebase_fps": 30,
+    "map_path": "rhythm-map.md",
+    "music_status": "unselected",
+    "audio_event_markers": [],
+    "planned_edit_shots": null,
+    "planned_generation_jobs": null,
+    "planned_generation_seconds": null,
+    "animatic_path": null,
+    "animatic_review": null
+  }
+}

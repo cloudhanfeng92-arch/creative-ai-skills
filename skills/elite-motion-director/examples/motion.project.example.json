@@ -1,0 +1,21 @@
+{
+  "title": "【当前主题标题】",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 60,
+  "seed": 42,
+  "entry": "visual.js",
+  "css": null,
+  "audio": "audio/mix.m4a",
+  "assets": {},
+  "output": "output",
+  "coverTime": 4,
+  "threads": 2,
+  "tts": false,
+  "physicalMode": "object-dependent",
+  "stageBackground": "#111111",
+  "outputRevision": null,
+  "overwriteOutputs": false,
+  "browserPolicy": "codex-in-app-only"
+}

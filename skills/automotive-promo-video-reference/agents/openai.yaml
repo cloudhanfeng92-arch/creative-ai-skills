@@ -1,0 +1,4 @@
+interface:
+  display_name: "汽车宣传片导演·无分镜图版"
+  short_description: "剧本分镜先行，车辆四视图直出多镜视频，每段不超过30秒并用半秒时间轴"
+  default_prompt: "使用 $automotive-promo-video-reference，根据我的汽车图片先写剧本与分镜表，再准备车辆四视图和必要内饰、场景参考，编写每段不超过30秒的多参考视频时间轴提示词，不生成分镜图。"
