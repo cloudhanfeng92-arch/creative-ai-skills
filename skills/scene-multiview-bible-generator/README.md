@@ -4,13 +4,14 @@
 
 ## 安装
 
-把下面的请求发给支持 Skill 安装的 AI 助手，安装仓库完整内容：
+把下面的请求发给支持 Skill 安装的 AI 助手，安装对应 Skill 的完整目录：
 
 ```text
-请安装 https://github.com/cloudhanfeng92-arch/scene-multiview-bible-generator 中的 Skill。
+请从 https://github.com/cloudhanfeng92-arch/creative-ai-skills
+安装 skills/scene-multiview-bible-generator 目录中的 Skill。
 ```
 
-也可从 [总仓库](https://github.com/cloudhanfeng92-arch/creative-ai-skills/tree/main/skills/scene-multiview-bible-generator) 安装 `skills/scene-multiview-bible-generator`。保留 `SKILL.md` 及所有配套文件；同名本地版本应先备份再替换。详见[安装指南](https://github.com/cloudhanfeng92-arch/creative-ai-skills/blob/main/docs/INSTALL.md)。
+可在 [总仓库](https://github.com/cloudhanfeng92-arch/creative-ai-skills/tree/main/skills/scene-multiview-bible-generator) 安装 `skills/scene-multiview-bible-generator`。保留 `SKILL.md` 及所有配套文件；同名本地版本应先备份再替换。详见[安装指南](https://github.com/cloudhanfeng92-arch/creative-ai-skills/blob/main/docs/INSTALL.md)。
 
 ## 使用示例
 

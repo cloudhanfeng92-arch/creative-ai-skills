@@ -4,13 +4,14 @@
 
 ## 安装
 
-把下面的请求发给支持 Skill 安装的 AI 助手，安装仓库完整内容：
+把下面的请求发给支持 Skill 安装的 AI 助手，安装对应 Skill 的完整目录：
 
 ```text
-请安装 https://github.com/cloudhanfeng92-arch/runninghub-app-publisher 中的 Skill。
+请从 https://github.com/cloudhanfeng92-arch/creative-ai-skills
+安装 skills/runninghub-app-publisher 目录中的 Skill。
 ```
 
-也可从 [总仓库](https://github.com/cloudhanfeng92-arch/creative-ai-skills/tree/main/skills/runninghub-app-publisher) 安装 `skills/runninghub-app-publisher`。保留 `SKILL.md` 及所有配套文件；同名本地版本应先备份再替换。详见[安装指南](https://github.com/cloudhanfeng92-arch/creative-ai-skills/blob/main/docs/INSTALL.md)。
+可在 [总仓库](https://github.com/cloudhanfeng92-arch/creative-ai-skills/tree/main/skills/runninghub-app-publisher) 安装 `skills/runninghub-app-publisher`。保留 `SKILL.md` 及所有配套文件；同名本地版本应先备份再替换。详见[安装指南](https://github.com/cloudhanfeng92-arch/creative-ai-skills/blob/main/docs/INSTALL.md)。
 
 ## 使用示例
 
